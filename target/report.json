@@ -1,0 +1,96 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Deve criar uma pesquisa sem erros",
+        "description": "",
+        "id": "criar-pesquisa;deve-criar-uma-pesquisa-sem-erros",
+        "after": [
+          {
+            "result": {
+              "duration": 353346200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PesquisaSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 704156500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PesquisaSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 11991802300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Colocar o titulo do pesquisa",
+            "match": {
+              "location": "PesquisaSteps.colocarOTituloDoPesquisa()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 314545000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "colocar perguntas",
+            "match": {
+              "location": "PesquisaSteps.colocarPerguntas()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5062845200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enviar a pergunta",
+            "match": {
+              "location": "PesquisaSteps.enviarAPergunta()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 39660500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a pesquisa deve ser criada",
+            "match": {
+              "location": "PesquisaSteps.aPesquisaDeveSerCriada()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Criar pesquisa",
+    "description": "Como um usuario, \neu quero criar pesquisas \npara as pessoas votarem e saber o resultado facilmente",
+    "id": "criar-pesquisa",
+    "keyword": "Funcionalidade",
+    "uri": "criar_pesquisa.feature"
+  }
+]
